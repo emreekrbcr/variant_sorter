@@ -6,6 +6,8 @@
 - En sol, orta, en sağ hizalamaları veritabanından gelebilecek karışık yani düzensiz varyantları da bir düzene koymak içindir. 
 - Gelen varyantların ['7xl', 'l', 'XXXL', 'M', 'S', 'XL', 'XXS', 10, 'XXXS', '12', '20x120', '10x120', '30x120', '100x120', '45', '43'] gibi olduğunu düşünürsek bunu bile bir düzene sokacaktır.
 
+# In English:
+
 - It arranges mixed variants from the database into the correct order.
 - Numeric values such as shoe sizes are sorted to the left in ascending order; size information like S, M, L, XL is sorted in the middle;
 - All other string expressions are sorted to the right using **natural comparison**.
