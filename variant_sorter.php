@@ -168,5 +168,3 @@ $arr = ['1000gr', "3xl", "l", 36, "50x100", 45, "120X200", "s", "M", 43, 42, "10
 sortVariants($arr, false);
 
 print_r($arr);
-
-echo is_numeric('45');
